@@ -1,0 +1,14 @@
+services:
+  fastapi:
+    image: olamilekan02/emissions-server:1.0
+    ports:
+      - "8080:8080"
+    container_name: emissions-server
+
+  streamlit:
+    image: olamilekan02/emissions-ui:1.0
+    ports:
+      - "8000:8000"
+    container_name: emissions-ui
+    depends_on:
+      - fastapi
