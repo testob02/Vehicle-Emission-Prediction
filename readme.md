@@ -4,6 +4,10 @@
 
 This project predicts the CO<sub>2</sub> emission of vehicles based on features like engine size, fuel consumption, transmission type, and fuel type.
 
+## Project Site
+
+Explore the project here: [Project Site](http://16.171.171.89:8000)
+
 ## Problem Statement
 
 The transportation sector significantly contributes to greenhouse gas emissions. Predicting CO<sub>2</sub> emission based on vehicle features helps manufacturers, policymakers, and consumers make eco-friendly, data-driven decisions. This project aims to develop an accurate prediction model for this purpose.
